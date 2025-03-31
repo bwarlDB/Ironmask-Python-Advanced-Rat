@@ -1,2 +1,27 @@
-# Ironmask-Python-Advanced-Rat
-Ironmask-Python-Advanced-Rat
+| **Özellik**                              | **Açıklama**                                                                                                                                                     |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Bağlı İstemciler**                      | Sunucuya bağlı olan istemcilerin listesini gösterir.                                                                                                              |
+| **📂 Komut Dosyası Çalıştır**              | Seçilen bir VBS veya Batch dosyasını tüm bağlı istemcilere gönderir ve çalıştırır.                                                                                 |
+| **📜 Keylogları Al ve Gönder**             | Seçilen istemciden keylog dosyasını alır ve e-posta ile gönderir.                                                                                                 |
+| **📸 Ekran Görüntüsü Al ve Gönder**        | Seçilen istemciden ekran görüntüsü alır ve e-posta ile gönderir.                                                                                                  |
+| **🔽 Dosya İşlemleri**                     | Seçilen istemcinin belirtilen dizininde bulunan dosyaların listesini alır ve gösterir.                                                                            |
+| **Bağlı İstemci Ekleme**                  | Yeni bir istemci sunucuya bağlandığında istemci listesini günceller.                                                                                              |
+| **Bağlı İstemci Kaldırma**                | Bir istemci sunucudan ayrıldığında istemci listesini günceller.                                                                                                   |
+| **Dosya Gezinti**                         | İstemciden belirtilen dizindeki dosyaların listesini alır ve gösterir.                                                                                            |
+| **Dosya Gönderme**                        | Seçilen istemciden belirtilen dosyayı sıkıştırır ve e-posta ile gönderir.                                                                                         |
+| **Dizin Gönderme**                        | Seçilen istemciden belirtilen dizini sıkıştırır ve e-posta ile gönderir.                                                                                          |
+| **Keylog Gönderme**                       | Seçilen istemciden alınan keylog dosyasını e-posta ile gönderir.                                                                                                  |
+| **Ekran Görüntüsü Alma**                  | İstemciden ekran görüntüsü alır ve e-posta ile gönderir.                                                                                                          |
+| **Geçici Dosya Çalıştırma**               | Sunucudan alınan içerikleri geçici bir dosya olarak çalıştırır ve ardından bu dosyayı siler.                                                                       |
+| **Sunucuya Bağlanma ve Komut Dinleme**    | Sunucuya bağlanır ve sunucudan gelen komutları dinler ve uygular.                                                                                                 |
+| **Kalıcı Bağlantı Sağlama**               | İstemcinin kendisini Windows başlangıcına eklemesi ve belirli bir dizinde kalıcı olması.                                                                           |
+| **Keylogger**                             | İstemci bilgisayarındaki tuş vuruşlarını kaydeder ve bir log dosyasına yazar.                                                                                     |
+| **E-posta ile Dosya Gönderme**            | Sıkıştırılmış dosyaları ve keylog dosyalarını belirtilen e-posta adresine gönderir.                                                                               |
+| **Dizin Sıkıştırma**                      | Belirtilen dizini sıkıştırır ve sıkıştırılmış dosyayı e-posta ile gönderir.                                                                                       |
+| **Dosya Sıkıştırma**                      | Belirtilen dosyayı sıkıştırır ve sıkıştırılmış dosyayı e-posta ile gönderir.                                                                                      |
+| **Başlangıca Ekleme**                     | İstemci kendisini Windows başlangıcına ekler ve belirli bir konuma kopyalar.                                                                                      |
+| **Keylogger Başlatma**                    | Keylogger fonksiyonunu başlatır ve tuş vuruşlarını kaydetmeye başlar.                                                                                            |
+| **Geçici Dosya Çalıştırma ve Silme**      | Geçici bir dosya oluşturur, çalıştırır ve ardından bu dosyayı siler.                                                                                              |
+| **Sunucuya Yeniden Bağlanma**             | Sunucu bağlantısı koptuğunda belirli aralıklarla yeniden bağlanmayı dener.                                                                                        |
+| **Sunucuya Bağlanma ve Komut Alma**       | Sunucuya bağlanır ve sunucudan gelen komutları alır ve uygular.                                                                                                   |
+{ Eğer bu projeyi geliştirmek isterseniz catalamaktan kacınmayın. Herhangi bir sorunuz olursa sormaktan cekinmeyin } 
