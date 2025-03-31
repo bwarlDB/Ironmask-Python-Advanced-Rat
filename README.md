@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="İronmask.jpg" alt="Proje Ekran Görüntüsü" width="600">
+  <img src="İronmask.jpg" alt="Proje Ekran Görüntüsü" width="450">
 </p>
 
 
