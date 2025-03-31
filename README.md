@@ -1,27 +1,28 @@
-| **Özellik**                              | **Açıklama**                                                                                                                                                     |
-|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Bağlı İstemciler**                      | Sunucuya bağlı olan istemcilerin listesini gösterir.                                                                                                              |
-| **📂 Komut Dosyası Çalıştır**              | Seçilen bir VBS veya Batch dosyasını tüm bağlı istemcilere gönderir ve çalıştırır.                                                                                 |
-| **📜 Keylogları Al ve Gönder**             | Seçilen istemciden keylog dosyasını alır ve e-posta ile gönderir.                                                                                                 |
-| **📸 Ekran Görüntüsü Al ve Gönder**        | Seçilen istemciden ekran görüntüsü alır ve e-posta ile gönderir.                                                                                                  |
-| **🔽 Dosya İşlemleri**                     | Seçilen istemcinin belirtilen dizininde bulunan dosyaların listesini alır ve gösterir.                                                                            |
-| **Bağlı İstemci Ekleme**                  | Yeni bir istemci sunucuya bağlandığında istemci listesini günceller.                                                                                              |
-| **Bağlı İstemci Kaldırma**                | Bir istemci sunucudan ayrıldığında istemci listesini günceller.                                                                                                   |
-| **Dosya Gezinti**                         | İstemciden belirtilen dizindeki dosyaların listesini alır ve gösterir.                                                                                            |
-| **Dosya Gönderme**                        | Seçilen istemciden belirtilen dosyayı sıkıştırır ve e-posta ile gönderir.                                                                                         |
-| **Dizin Gönderme**                        | Seçilen istemciden belirtilen dizini sıkıştırır ve e-posta ile gönderir.                                                                                          |
-| **Keylog Gönderme**                       | Seçilen istemciden alınan keylog dosyasını e-posta ile gönderir.                                                                                                  |
-| **Ekran Görüntüsü Alma**                  | İstemciden ekran görüntüsü alır ve e-posta ile gönderir.                                                                                                          |
-| **Geçici Dosya Çalıştırma**               | Sunucudan alınan içerikleri geçici bir dosya olarak çalıştırır ve ardından bu dosyayı siler.                                                                       |
-| **Sunucuya Bağlanma ve Komut Dinleme**    | Sunucuya bağlanır ve sunucudan gelen komutları dinler ve uygular.                                                                                                 |
-| **Kalıcı Bağlantı Sağlama**               | İstemcinin kendisini Windows başlangıcına eklemesi ve belirli bir dizinde kalıcı olması.                                                                           |
-| **Keylogger**                             | İstemci bilgisayarındaki tuş vuruşlarını kaydeder ve bir log dosyasına yazar.                                                                                     |
-| **E-posta ile Dosya Gönderme**            | Sıkıştırılmış dosyaları ve keylog dosyalarını belirtilen e-posta adresine gönderir.                                                                               |
-| **Dizin Sıkıştırma**                      | Belirtilen dizini sıkıştırır ve sıkıştırılmış dosyayı e-posta ile gönderir.                                                                                       |
-| **Dosya Sıkıştırma**                      | Belirtilen dosyayı sıkıştırır ve sıkıştırılmış dosyayı e-posta ile gönderir.                                                                                      |
-| **Başlangıca Ekleme**                     | İstemci kendisini Windows başlangıcına ekler ve belirli bir konuma kopyalar.                                                                                      |
-| **Keylogger Başlatma**                    | Keylogger fonksiyonunu başlatır ve tuş vuruşlarını kaydetmeye başlar.                                                                                            |
-| **Geçici Dosya Çalıştırma ve Silme**      | Geçici bir dosya oluşturur, çalıştırır ve ardından bu dosyayı siler.                                                                                              |
-| **Sunucuya Yeniden Bağlanma**             | Sunucu bağlantısı koptuğunda belirli aralıklarla yeniden bağlanmayı dener.                                                                                        |
-| **Sunucuya Bağlanma ve Komut Alma**       | Sunucuya bağlanır ve sunucudan gelen komutları alır ve uygular.                                                                                                   |
-{ Eğer bu projeyi geliştirmek isterseniz catalamaktan kacınmayın. Herhangi bir sorunuz olursa sormaktan cekinmeyin } 
+| **Feature**                              | **Description**                                                                                                                                         |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Connected Clients**                      | Shows the list of clients connected to the server.                                                                                             |
+| **📂 Run Script**              | Sends and runs a selected VBS or Batch file to all connected clients.                                                 |
+| **📜 Retrieve and Send Keylogs**             | Retrieves the keylog file from the selected client and sends it via email.                                                                            |
+| **📸 Capture and Send Screenshot**        | Takes a screenshot from the selected client and sends it via email.                                                                        |
+| **🔽 File Operations**                     | Retrieves and displays the list of files in the specified directory of the selected client.                                                        |
+| **Add Connected Client**                  | Updates the client list when a new client connects to the server.                                                                           |
+| **Remove Connected Client**                | Updates the client list when a client disconnects from the server.                                                                               |
+| **File Navigation**                         | Retrieves and displays the list of files in the specified directory from the client.                                                                            |
+| **Send File**                        | Compresses the specified file from the selected client and sends it via email.                                                                    |
+| **Send Directory**                        | Compresses the specified directory from the selected client and sends it via email.                                                                      |
+| **Send Keylog**                       | Sends the retrieved keylog file from the selected client via email.                                                                                |
+| **Capture Screenshot**                  | Takes a screenshot from the client and sends it via email.                                                                                   |
+| **Execute Temporary File**               | Executes content received from the server as a temporary file and then deletes this file.                                           |
+| **Connect to Server and Listen for Commands**    | Connects to the server and listens for and executes commands from the server.                                                                                 |
+| **Maintain Persistent Connection**               | Adds the client to Windows startup and maintains its presence in a specific directory.                                                  |
+| **Keylogger**                             | Records keystrokes on the client computer and writes them to a log file.                                                                  |
+| **Send File via Email**            | Sends compressed files and keylog files to the specified email address.                                                       |
+| **Compress Directory**                      | Compresses the specified directory and sends the compressed file via email.                                                         |
+| **Compress File**                      | Compresses the specified file and sends the compressed file via email.                                                       |
+| **Add to Startup**                     | Adds the client to Windows startup and copies it to a specific location.                                                                    |
+| **Start Keylogger**                    | Starts the keylogger function and begins recording keystrokes.                                                                         |
+| **Execute and Delete Temporary File**      | Creates, executes, and then deletes a temporary file.                                                                    |
+| **Reconnect to Server**             | Attempts to reconnect at regular intervals when the server connection is lost.                                                                    |
+| **Connect to Server and Receive Commands**       | Connects to the server, receives, and executes commands from the server.                                                                                  |
+
+{ If you want to improve this project, feel free to fork it. If you have any questions, don't hesitate to ask. }
